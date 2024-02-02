@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+ul li:hover {
+  border: 1px solid #555;
+  background: rgb(24, 23, 23); 
+  color :white;
+}
+
+.city-map {
+  flex: 1;
+}
+.city-info {
+  margin-bottom: 20px;
+}
+
+.famous-places {
+  font-weight: bold;
+}
+.city-sidebar {
+  width: 28%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.city-sidebar h2{
+  border-bottom: 2px solid gray;
+}
+.city-sidebar.close{
+  display: none;
+}
+.city-sidebar.open {
+  transform: translateX(0);
+  background: #a5a4a4;
+}
+ul{
+  text-decoration: none;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+    margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 20px;
+
+}
+ul li{
+  list-style: none;
+  margin: 10px;
+  background:white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-wrap: nowrap;
+}
+.closebtn{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 7px;
+ cursor: pointer;
+  right: 0px;
+}
+.famouplaces{
+  font-size: 18px;
+  font-weight: 400;
+  color: aliceblue;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+}
