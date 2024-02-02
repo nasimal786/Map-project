@@ -95,3 +95,15 @@ ul li{
   padding-left: 10px;
 
 }
+@media screen and (max-width: 580px) {
+  .app-container {
+    display:block;
+    height: 100vh;
+  }
+  .sidebar {
+    width: auto;
+  }
+  .city-sidebar {
+    width: auto;
+  }
+}
