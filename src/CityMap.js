@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  GoogleMap,
-  LoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
+import { GoogleMap, Marker, InfoWindow } from "@react-google-maps/api";
 
 const CityMap = ({ selectedCity, cities }) => {
   const mapContainerStyle = {
